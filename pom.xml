@@ -51,8 +51,7 @@
 					
 					<systemPropertyVariables>
 					
-					<browser>${browser}</browser>
-					
+										
 					
 					</systemPropertyVariables>
 				</configuration>
