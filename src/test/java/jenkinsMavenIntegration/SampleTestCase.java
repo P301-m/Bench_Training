@@ -11,27 +11,16 @@ import org.testng.annotations.Test;
 public class SampleTestCase {
 	
 	
-	@Parameters("browser")
 	@Test
-	public void lauchBrowser(String Launching_browser)
+	public void lauchBrowser()
 	{
-		WebDriver driver=null;
-		System.out.println("Launch browser is : " + Launching_browser);
-		
-		if(Launching_browser.contains("Chrome"))
-		{
+		 
 		
 		System.setProperty("webdriver.chrome.driver","D:\\Downloads\\Softwares\\browserDrivers\\chromedriver\\chromedriver.exe");
 
-		driver = new ChromeDriver();
-		}
+		WebDriver driver = new ChromeDriver();
 		
-		else if(Launching_browser.contains("Firefox"))
-		{System.setProperty("webdriver.chrome.driver","D:\\Downloads\\Softwares\\browserDrivers\\chromedriver\\chromedriver.exe");
-
-		driver = new ChromeDriver();
-			
-		}
+		
 		
 		driver.get("https://www.google.com/");
 		
