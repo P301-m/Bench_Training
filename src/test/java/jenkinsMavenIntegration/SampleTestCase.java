@@ -16,7 +16,7 @@ public class SampleTestCase {
 	{
 		 
 		
-		System.setProperty("webdriver.chrome.driver","D:\\Downloads\\Softwares\\browserDrivers\\chromedriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\Users\ntombenhlenzimande\Downloads\chromedriver_win32");
 
 		WebDriver driver = new ChromeDriver();
 		
